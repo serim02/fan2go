@@ -14,4 +14,186 @@ h3{
 
 
 
-/*헤더*/
+/*로드맵*/
+
+
+
+
+#roadmap{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 120px 0;
+  background: url(../img/roadmap_bg.png) no-repeat 0 0;
+  background-size: cover;
+}
+
+.roadmap_wrap{
+  width: 100%;
+}
+
+.roadmap_listBox{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+  margin-top: 60px;  
+}
+
+.roadmap_listBox .box{
+  width: 16%;
+  height: 140px;
+  background-color: rgba(237, 242, 244, 0.5);
+  border-radius: 15px;
+  padding: 2%;   
+  margin-bottom: 6%;
+  margin-right:4% ;
+}
+
+.roadmap_listBox .box:nth-child(5n){
+  margin-right: 0;
+}
+
+.roadmap_listBox .box h4{
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+
+/* 컨텍트 */
+
+#contact{
+  width: 100%;
+  padding: 100px 0;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#contact::after{
+  content: "";
+  height:100%;
+  width: 30%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #EB5E01;
+  z-index: -1;
+}
+
+#contact .contact_area{
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact .contact_area .con_left{
+  width: 40%;
+}
+
+#contact .contact_area .con_left form{
+  display: flex;
+  flex-direction: column;
+  width:100%
+}
+
+#contact .contact_area .con_left form h4{
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+#contact .contact_area .con_left form .email,#message{
+  width: 100%;
+  background-color: none;
+  border: none;
+  border-bottom: 1px solid #818181;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  color: #B3B3B3;
+}
+
+#contact .contact_area .con_left form input.send{
+  padding: 15px 0;
+  background-color: #222222;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+#contact .contact_area .con_right{
+  width: 50%;
+  position: absolute;
+  right: 0;
+  padding: 50px;
+  background-color: #222222;
+}
+
+#contact .contact_area .con_right .info h4{
+  color: #fff;
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+#contact .contact_area .con_right .info{
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .contact_area .con_right .info span{
+  margin-bottom: 30px;
+}
+#contact .contact_area .con_right .info span img{
+  height:20px
+}
+
+#contact .contact_area .con_right .info span:nth-child(3){
+  margin-left: 2px;
+}
+
+
+footer{
+  width:100%;
+  background-color:#222222;
+  padding: 40px 0;
+}
+
+footer .footer_area{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer_area h4{
+  color: #fff;
+}
+
+footer .footer_area .white_paper,.sns{
+  display: flex;
+  align-items: center;
+}
+
+footer .footer_area h2{
+  width: 5%;
+}
+footer .footer_area h2 img{
+ width:90%;
+}
+
+footer .white_paper{
+  width: 70%
+}
+
+footer .white_paper a{
+  margin-left: 30px;
+}
+
+footer .sns{
+  width: 11%;
+  float:right;
+}
+
+footer .sns a{
+  margin-left: 30px;
+}
