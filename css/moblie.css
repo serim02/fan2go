@@ -8,10 +8,78 @@
 /*노트북*/
   @media screen and (max-width:1024px) {
 
+    .mb_btn{
+      display: block;
+      line-height: 85px;
+      cursor: pointer;
+    }
+    
+    .mb_wrap{
+    width: 100%;
+    background-color: rgba(38,38,38,0.5);
+    text-align: center;
+    font-size: 1.8em;
+    position: absolute;
+    top: 85px;
+    right: 0;
+    z-index: 100;
+    }
+    
+    .mb_wrap ul li a{
+      color: #fff;
+      width: 100%;
+      padding: 2% 0;
+      display: block;
+      text-decoration: none;
+      transition: all 0.5s;
+    }
+    
+    .mb_wrap ul li a:hover{
+      opacity: 0.5;
+    }
+    
+    .hd_wrap{
+      display: none;
+    }
+
+
+
+    /* home */
+
+    .home_txt{
+      width: 65%;
+    }
+    
+    
+    /* intro */
+
+    .intro_wrap p{
+      padding-left: 5%;
+      font-size: 15px;
+    }
+
+
     .ab_box .box div{
       width: 215px;
     }
 
+
+    .roadmap_listBox .box {
+      width: 20%;
+      margin-right: 5%;
+    }
+  
+    .roadmap_listBox .box:nth-child(5) {
+      margin-right: 5%;
+    }
+  
+    .roadmap_listBox .box:nth-child(4n) {
+      margin-right: 0;
+    }
+  
+    footer .sns {
+      width: 15%;
+    }
 
 }
 
@@ -19,6 +87,51 @@
 
   /*아이패드 (768px)*/
 @media screen and (max-width:991px) {
+
+  .home_txt{
+    width: 85%;
+  }
+
+
+
+/* intro */
+
+#intro{
+background: url(../img/무제-22.png) no-repeat -80px 0;
+background-size: cover;
+}
+
+
+
+.intro_wrap p{
+font-size: 0.9em;
+padding-top: 2%;
+}
+
+
+
+
+/* blockchainsystem */
+
+#blockchainsystem{
+background: url(../img/blockchain.png) no-repeat 2px 280px;
+background-size: contain;
+padding: 8% 0;
+}
+
+.blckchain_wrap h4{
+font-size: 0.95em;
+}
+
+.blckchain_wrap p{
+font-size: 0.86em;
+}
+
+
+.blckchn_img img{
+max-width: 65%;
+}
+
 
   .about03_area .ab_box {
     display: block;
@@ -47,7 +160,37 @@
     padding: 60px 30px 110px 30px;
   }
 
+  .graph_txt h5{
+    font-size: 17px;
+  }
 
+  .roadmap_listBox .box{
+    padding: 5% 2% 2% 2%;
+  }
+
+  .roadmap_listBox .box h4{
+    font-size: 1.2em;
+  }
+
+  .roadmap_listBox .box p{
+    font-size: 13px;
+  }
+
+  .roadmap_listBox br {
+    display: none;
+  }
+
+  footer .white_paper {
+    width: 57%;
+  }
+
+  footer .white_paper {
+    width: 57%;
+  }
+
+  footer .sns {
+    width: 20%;
+  }
 
 
 }
@@ -57,6 +200,49 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+
+  /* intro */
+
+#intro{
+  background: url(../img/무제-22.png) no-repeat -150px 0;
+  background-size: cover;
+}
+
+.intro_wrap p{
+  line-height: 1.5em;
+}
+
+.intro_wrap p br{
+  display: none;
+}
+
+
+
+/* blockchainsystem */
+
+#blockchainsystem{
+  background: url(../img/blockchain.png) no-repeat 2px 300px;
+  background-size: contain;
+}
+
+.blckchain_wrap h4{
+  font-size: 1.1em;
+}
+
+.blckchain_wrap p br{
+  display: none;
+}
+
+
+.blckchn_img img{
+  max-width: 85%;
+}
+
+.blckchain_wrap p{
+  font-size: 0.90em;
+  line-height: 25px;
+}
+
 
   
   .token_area .token_graph{
@@ -79,9 +265,50 @@
   }
   
   .token_txt p{
-    font-size: 18px;
+    font-size: 17px;
   }
   
+
+  .roadmap_listBox .box {
+    width: 40%;
+    margin-right: 4%;
+    padding: 5%;
+  }
+
+  .roadmap_listBox .box:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .roadmap_listBox .box p{
+    font-size: 17px;
+  }
+
+  footer .footer_area {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  footer .footer_area h2 {
+    width: 100%;
+}
+
+
+footer .footer_area h2 img {
+  width: auto;
+}
+
+footer .footer_area h4{
+  font-size: 1.5em;
+}
+footer .footer_area .white_paper{
+  width: 100%;
+  margin: 30px 0;
+}
+
+footer .sns {
+  width: 100%;
+}
+
 
 }
 
@@ -94,6 +321,56 @@
   h3{
     font-size: 2em;
   }
+
+  .home_txt{
+    padding: 18% 5%;
+  }
+
+  .home_txt h4{
+    font-size: 1.1em;
+  }
+
+  .home_txt p br{
+    display: none;
+  }
+
+  .home_txt p{
+    font-size: 0.85em;
+  }
+
+  .home_btn span{
+    width: 30%;
+  }
+
+  .home_btn span a{
+    font-size: 0.8em;
+  }
+
+
+/* intro */
+
+#intro{
+  background: url(../img/무제-22.png) no-repeat -200px 0;
+  background-size: cover;
+}
+
+#intro h3{
+  margin-left: 5%;
+}
+
+.intro_wrap{
+  display: block;
+}
+
+
+
+/* blockchainsystem */
+
+#blockchainsystem{
+  background: url(../img/blockchain.png) no-repeat 0 427px;
+  background-size: contain;
+}
+
 
   .token_txt p{
     font-size: 13px;
@@ -108,6 +385,43 @@
   }
   
 
+  .roadmap_listBox .box h4 {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+
+  #contact .contact_area {
+    flex-direction: column;
+  }
+
+  #contact{
+    padding-bottom: 500px;
+  }
+
+  #contact::after {
+    content: "";
+    height: 30%;
+    width: 100%;
+    top:auto;
+    position: absolute;
+    bottom: 0 !important;
+    right: 0;
+
+  }
+
+  #contact .contact_area .con_left {
+    width: 100%;
+}
+
+  #contact .contact_area .con_right {
+    width: 90%;
+    left: 50%;
+    transform:translate(-50%,0);
+    bottom: 7% ;
+}
+
+
 }
 
 
@@ -115,6 +429,43 @@
 /*모바일3 갤럭시*/
 
   @media screen and (max-width:425px) {
+
+    .home_txt p{
+      font-size: 0.8em;
+    }
+
+
+    /* intro */
+
+    #intro{
+      background: url(../img/무제-22.png) no-repeat -160px 0;
+      background-size: cover;
+      padding: 8% 0;
+    }
+
+    .intro_wrap p{
+      line-height: 1.7em;
+      font-size: 0.8em;
+    }
+
+
+    /* blockchainsystem */  
+
+
+    #blockchainsystem{
+      background: url(../img/blockchain.png) no-repeat 0 370px;
+      background-size: contain;
+      padding: 10% 0;
+    }
+    
+    .blckchain_wrap h4{
+      font-size: 0.8em;
+    }
+
+    .blckchain_wrap p{
+      font-size: 0.8em;
+    }
+
 
     .ab_box .box div{
       width: 80%;
@@ -128,6 +479,18 @@
     .ab_box .box h4{
       font-size: 25px;
     }
+
+
+    .roadmap_listBox .box{
+      padding: 6% 2% 2% 2%;
+    }
+
+
+    .roadmap_listBox .box p{
+      font-size: 15px;
+    }
+
+
 
 }
 
