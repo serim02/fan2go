@@ -12,6 +12,171 @@ h3{
 }
 
 
+/* 어바웃 3 */
+
+#about03 {
+  width: 100%;
+  background:url(../img/nft_bg.jpg) no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#about03 .about03_area {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about03_area h3 {
+  padding-bottom: 40px;
+}
+
+.about03_area .ab_box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ab_box .box {
+  border-radius: 30px;
+  transition: all .4s;
+}
+
+.ab_box .box:last-child {
+  margin-right: 0;
+}
+
+.ab_box .box img:hover{
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+
+.ab_box .box img {
+  margin-bottom: 20px;
+}
+
+.ab_box .box div{
+  background-color: #222222;
+  height: 160px;
+  padding: 10px 0 0 0;
+}
+
+.ab_box .box h4 {
+  color: #EF7D03;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.ab_box .box p{
+  color: #fff;
+  font-size: 13px;
+}
 
 
-/*헤더*/
+
+/* 토큰 */
+#token {
+  width: 100%;
+  text-align: center;
+  padding: 120px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  background:url(../img/coin_bg.png) no-repeat;
+  background-size: cover;
+}
+
+#token .token_area {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 50px 30px;
+  position: relative;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.33) 3.95px 3.95px 10px;
+}
+
+.token_area .token_graph {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.token_graph img {
+  max-width: 30%;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+.token_graph .graph_txt {
+  display: flex;
+  flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+
+.graph_txt p{
+  word-break: keep-all;
+}
+
+.graph_txt h5 {
+  width: 50%;
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.graph_txt ul {
+  display: flex;
+  flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+
+.graph_txt ul li {
+  font-size: 16px;
+  width: 50%;
+  height: 40%;
+  text-align: left;
+  position: relative;
+}
+
+.graph_txt ul li span {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  margin-right: 10px;
+  background-color: #E67927;
+}
+
+.graph_txt ul li:nth-child(2) span {
+  background-color: #C7572B;
+}
+
+.graph_txt ul li:nth-child(3) span {
+  background-color: #A33826;
+}
+
+.graph_txt ul li:nth-child(4) span {
+  background-color: #7F1D21;
+}
+
+.graph_txt ul li:nth-child(4) br {
+  margin-left: 60px;
+}
+
+.graph_txt ul li:nth-child(5) span {
+  background-color: #580B1A;
+}
+
+.graph_txt ul li:nth-child(6) span {
+  background-color: #7E2B4E;
+}
+
+.graph_txt ul li:nth-child(7) span {
+  background-color: #995387;
+}
