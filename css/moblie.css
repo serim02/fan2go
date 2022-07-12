@@ -7,6 +7,12 @@
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+
+    .ab_box .box div{
+      width: 215px;
+    }
+
+
 }
 
 
@@ -25,6 +31,16 @@
   .ab_box .box div{
     width: 50%;
     margin: 0 auto;
+    height: 180px;
+    padding: 15px 5px 0 5px;
+  }
+
+  .ab_box .box h4{
+    font-size: 30px;
+  }
+
+  .ab_box .box p{
+    font-size: 14px;
   }
 
   #token .token_area{
@@ -41,6 +57,31 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+
+  
+  .token_area .token_graph{
+    display: block;
+  }
+
+  .token_graph img{
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .token_area .graph_txt ul{
+    margin-top: 10px;
+  }
+
+  .token_area .graph_txt ul li{
+    font-size: 15px;
+  }
+  
+  .token_txt p{
+    font-size: 18px;
+  }
+  
 
 }
 
@@ -60,21 +101,6 @@
 
   .graph_txt h5{
     font-size: 16px;
-  }
-
-  .token_area .token_graph{
-    display: block;
-  }
-
-  .token_graph img{
-    margin-right: 0;
-    margin-left: 0;
-    max-width: 50%;
-    margin-bottom: 30px;
-  }
-
-  .token_area .graph_txt ul{
-    margin-top: 10px;
   }
 
   .token_area .graph_txt ul li{
@@ -97,6 +123,10 @@
     #token .token_area{
       padding:50px 15px 80px 20px;
       width: 90%;
+    }
+
+    .ab_box .box h4{
+      font-size: 25px;
     }
 
 }

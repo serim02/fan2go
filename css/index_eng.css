@@ -3,3 +3,13 @@
     address{font-style:normal;}
 
 
+@media screen and (max-width:1024px) {
+    .ab_box .box div{
+        height: 180px;
+    }
+
+    .ab_box .box div p br{
+        display: none;
+    }
+    
+}
