@@ -3,3 +3,33 @@
     address{font-style:normal;}
 
 
+
+
+    @media screen and (max-width:991px) {
+
+        
+        
+        .intro_wrap p {
+            letter-spacing: -1px;
+        }   
+    }
+      
+
+    
+
+@media screen and (max-width:576px) {
+    .home_txt h4{
+        font-size: 1em;
+      }
+
+      .intro_wrap p {
+        letter-spacing: 0;
+    }   
+}
+
+@media screen and (max-width:425px) {
+    .home_txt h4{
+        font-size: 0.95em;
+      }
+}
+

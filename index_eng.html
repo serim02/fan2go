@@ -5,7 +5,7 @@
     <title></title>
 
     <!--meta-->
-      <meta name="viewport" content="width=device-width,initial-scal=1">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="X-UA-Compatible" content="le=edge">
 
     <!--js-->
@@ -36,45 +36,49 @@
 
     <header>
 
-      <div class="">
+      <div class="hd_all">
 
         <hgroup>
 
-          <h1><img src="img/.png" alt="logo"></h1>
+          <a href=""><h1><img src="img/logo.png" alt="logo"></h1></a>
 
         </hgroup>
 
 
-        <nav class="">
+        <nav class="hd_wrap">
           <ul>
-
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-
+            <li><a href="" class="scroll">Home</a></li>
+            <li><a href="" class="scroll">About</a></li>
+            <li><a href="" class="scroll">Fan2Go Coin</a></li>
+            <li><a href="" class="scroll">Roadmap</a></li>
+            <li><a href="" class="scroll">contact</a></li>
+            <li><a href="./index.html"><img src="img/h_kor.png" alt="h_kor"></a></li>
           </ul>
+
+
+
+
         </nav>
 
 
         <!--반응형-->
 
-        <div class="">
+        <div class="mb_btn">
 
-          <img src="img/.png" alt="menu_button">
+          <img src="img/h_menu_btn.png" alt="menu_button">
 
         </div>
 
-        <nav class="">
+        <nav class="mb_wrap">
 
           <ul>
 
-            <<li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
+            <li><a href="" class="scroll">Home</a></li>
+            <li><a href="" class="scroll">About</a></li>
+            <li><a href="" class="scroll">Fan2Go Coin</a></li>
+            <li><a href="" class="scroll">Roadmap</a></li>
+            <li><a href="" class="scroll">Contact</a></li>
+            <li><a href="./index.html" class="scroll"><img src="img/h_kor.png" alt="h_kor"></a></li>
 
           </ul>
 
@@ -83,19 +87,97 @@
                   <!--반응형 js-->
                 <script type="text/javascript">
                       $(function() {
-                $("").click(function() {
-                  $("").animate({width:"toggle"},250);
+                $(".mb_btn").click(function() {
+                  $(".mb_wrap").animate({width:"toggle"},250);
                 });
                 });
 
                 </script>
 
-      </div>
+      </div><!-- hd_all -->
 
     </header>
 
 
+    <section id="home">
+      <div class="video_wrap">
+        <video loop autoplay muted playsinline>
+          <source src="video/Soccer.mp4" type="video/mp4">
+        </video>
+      </div><!-- video_wrap -->
 
+      <div class="home_txt">
+        <h3>Fan2Go</h3>
+        <h4>Global Sports Star NFT Trading Platform<br>
+          Fan2Go Opens a New Chapter</h4>
+        <p>
+          Sports stars around the world, major scenes <br>
+          ,and goods from famous professional teams.<br>
+          NFT minting of the most valuable product in the sports market<br>
+          A platform that provides asset value beyond the collection value.
+        </p>
+
+        <div class="home_btn">
+          <span><a href="./Fan2Go white paper Ver.01- eng.pdf">Whitepaper</a></span>
+          <span><a href="">Wallet</a></span>
+        </div><!-- chome_btn -->
+      </div><!-- home_txt -->
+
+
+    </section><!-- home -->
+
+
+
+
+    <section id="intro">
+
+      <div class="intro_wrap container">
+
+        <h3>Intro.</h3>
+        
+        <p>
+          People have always been passionate about sports, love to own collectibles <br>
+          ,and want to feel a sense of belonging to their sports heroes and teams.<br>
+          In response to these market demands and fans' dreams, we build a sports-specific NFT platform. <br>
+          
+          An unforgettable match, sports stars loved by the world, and a sports team with huge fans<br>
+          
+          Now, instead of disappearing after seeing it on TV, <br>
+          it can be kept forever as an NFT work that has the same vitality as the real thing.<br>
+
+          From the satisfaction of owning wonderful NFT works to generating profits through transactions with global users. <br> <br>
+          
+          We aim to dominate the market with NFTs that contain everyone's aspirations for sports.<br>
+          
+        </p>
+      </div><!-- intro_wrap -->
+    </section><!-- intro -->
+
+
+
+
+    <section id="blockchainsystem">
+
+      <div class="blckchain_wrap container">
+
+        <h3>Fan2GO Blockchain Systems</h3>
+        
+        <h4>NFTs for the fan community means that anyone should be able to search, purchase, and store them safely in real time.</h4>
+        
+        <p>ERC20 blockchain technology introduced by FanTogo facilitates the creation, production,<br>
+          management, sale, storage, and transaction of NFTs in the most stable manner.<br>
+          Individuals who create their own NFTs, A sports marketing agent <br>
+          that produces and distributes valuable NFTs, Global users who trade NFTs…<br> <br>
+        
+          Blockchain's transparent and secure data storage, transaction tracking, and automatic ownership<br>
+          and resale guarantees make it the most valuable and secure sports NFT trading platform.
+      </p>
+      
+      <div class="blckchn_img">
+        <img src="img/blockchain_graph.png" alt="blockchain_graph">
+      </div><!-- blckchn_img -->
+    </div><!-- blckchain_wrap -->
+    </section><!-- blockchainsystem -->
 
   </body>
 

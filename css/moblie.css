@@ -7,12 +7,104 @@
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+    .mb_btn{
+        display: block;
+        line-height: 85px;
+        cursor: pointer;
+      }
+      
+      .mb_wrap{
+      width: 100%;
+      background-color: rgba(38,38,38,0.5);
+      text-align: center;
+      font-size: 1.8em;
+      position: absolute;
+      top: 85px;
+      right: 0;
+      z-index: 100;
+      }
+      
+      .mb_wrap ul li a{
+        color: #fff;
+        width: 100%;
+        padding: 2% 0;
+        display: block;
+        text-decoration: none;
+        transition: all 0.5s;
+      }
+      
+      .mb_wrap ul li a:hover{
+        opacity: 0.5;
+      }
+      
+      .hd_wrap{
+        display: none;
+      }
+
+
+
+      /* home */
+
+      .home_txt{
+        width: 65%;
+      }
+      
+      
+      /* intro */
+
+      .intro_wrap p{
+        padding-left: 5%;
+      }
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+
+   .home_txt{
+        width: 85%;
+      }
+
+
+
+/* intro */
+
+#intro{
+  background: url(../img/무제-22.png) no-repeat -80px 0;
+  background-size: cover;
+}
+
+
+
+.intro_wrap p{
+  font-size: 0.9em;
+  padding-top: 2%;
+}
+
+
+
+
+/* blockchainsystem */
+
+#blockchainsystem{
+  background: url(../img/blockchain.png) no-repeat 2px 280px;
+  background-size: contain;
+}
+
+.blckchain_wrap h4{
+  font-size: 0.95em;
+}
+
+.blckchain_wrap p{
+  font-size: 0.95em;
+}
+
+
+.blckchn_img img{
+  max-width: 65%;
+}
+
 }
 
 
@@ -21,6 +113,46 @@
 
 @media screen and (max-width:767px) {
 
+
+/* intro */
+
+#intro{
+  background: url(../img/무제-22.png) no-repeat -150px 0;
+  background-size: cover;
+}
+
+.intro_wrap p{
+  line-height: 1.5em;
+}
+
+.intro_wrap p br{
+  display: none;
+}
+
+
+
+
+/* blockchainsystem */
+
+#blockchainsystem{
+  background: url(../img/blockchain.png) no-repeat 2px 300px;
+  background-size: contain;
+}
+
+.blckchain_wrap h4{
+  font-size: 0.95em;
+}
+
+.blckchain_wrap p br{
+  display: none;
+}
+
+
+.blckchn_img img{
+  max-width: 85%;
+}
+
+
 }
 
 
@@ -28,6 +160,56 @@
 
 
 @media screen and (max-width:576px) {
+  .home_txt{
+    padding: 3% 5%;
+  }
+
+  .home_txt h4{
+    font-size: 1.1em;
+  }
+
+  .home_txt p br{
+    display: none;
+  }
+
+  .home_txt p{
+    font-size: 0.85em;
+  }
+
+  .home_btn span{
+    width: 30%;
+  }
+
+  .home_btn span a{
+    font-size: 0.8em;
+  }
+
+
+/* intro */
+
+#intro{
+  background: url(../img/무제-22.png) no-repeat -200px 0;
+  background-size: cover;
+}
+
+#intro h3{
+  margin-left: 5%;
+}
+
+.intro_wrap{
+  display: block;
+}
+
+
+
+
+
+/* blockchainsystem */
+
+#blockchainsystem{
+  background: url(../img/blockchain.png) no-repeat 0 427px;
+  background-size: contain;
+}
 
 }
 
@@ -36,7 +218,41 @@
 /*모바일3 갤럭시*/
 
   @media screen and (max-width:425px) {
+    .home_txt p{
+      font-size: 0.8em;
+    }
 
+
+    /* intro */
+
+    #intro{
+      background: url(../img/무제-22.png) no-repeat -205px 0;
+      background-size: cover;
+    }
+    .intro_wrap p{
+      font-size: 0.8em;
+    }
+
+
+
+
+
+    /* blockchainsystem */  
+
+
+    #blockchainsystem{
+      background: url(../img/blockchain.png) no-repeat 0 370px;
+      background-size: contain;
+    }
+    
+    .blckchain_wrap h4{
+      font-size: 0.8em;
+    }
+
+    .blckchain_wrap p{
+      font-size: 0.8em;
+    }
+    
 }
 
 

@@ -5,7 +5,7 @@
     <title></title>
 
     <!--meta-->
-      <meta name="viewport" content="width=device-width,initial-scal=1">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="X-UA-Compatible" content="le=edge">
 
     <!--js-->
@@ -34,45 +34,49 @@
 
     <header>
 
-      <div class="">
+      <div class="hd_all">
 
         <hgroup>
 
-          <h1><img src="img/.png" alt="logo"></h1>
+          <a href=""><h1><img src="img/logo.png" alt="logo"></h1></a>
 
         </hgroup>
 
 
-        <nav class="">
+        <nav class="hd_wrap">
           <ul>
-
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-
+            <li><a href="" class="scroll">Home</a></li>
+            <li><a href="" class="scroll">About</a></li>
+            <li><a href="" class="scroll">Fan2Go Coin</a></li>
+            <li><a href="" class="scroll">Roadmap</a></li>
+            <li><a href="" class="scroll">contact</a></li>
+            <li><a href="./index_eng.html"><img src="img/h_eng.png" alt="h_kor"></a></li>
           </ul>
+
+
+
+
         </nav>
 
 
         <!--반응형-->
 
-        <div class="">
+        <div class="mb_btn">
 
-          <img src="img/.png" alt="menu_button">
+          <img src="img/h_menu_btn.png" alt="menu_button">
 
         </div>
 
-        <nav class="">
+        <nav class="mb_wrap">
 
           <ul>
 
-            <<li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
+            <li><a href="" class="scroll">Home</a></li>
+            <li><a href="" class="scroll">About</a></li>
+            <li><a href="" class="scroll">Fan2Go Coin</a></li>
+            <li><a href="" class="scroll">Roadmap</a></li>
+            <li><a href="" class="scroll">Contact</a></li>
+            <li><a href="./index_eng.html" class="scroll"><img src="img/h_eng.png" alt="h_eng"></a></li>
 
           </ul>
 
@@ -81,19 +85,95 @@
                   <!--반응형 js-->
                 <script type="text/javascript">
                       $(function() {
-                $("").click(function() {
-                  $("").animate({width:"toggle"},250);
+                $(".mb_btn").click(function() {
+                  $(".mb_wrap").animate({width:"toggle"},250);
                 });
                 });
 
                 </script>
 
-      </div>
+      </div><!-- hd_all -->
 
     </header>
 
 
+    <section id="home">
+      <div class="video_wrap">
+        <video loop autoplay muted playsinline>
+          <source src="video/Soccer.mp4" type="video/mp4">
+        </video>
+      </div><!-- video_wrap -->
 
+      <div class="home_txt">
+        <h3>Fan2Go</h3>
+        <h4>글로벌 스포츠 스타 NFT 거래 플랫폼 <br>
+          Fan2Go가 새로운 장을 열겠습니다</h4>
+        <p>
+          전세계 스포츠 스타, 주요명장면, 유명 프로팀의 굿즈 <br>
+          스포츠 시장에서 가장 가치있는 상품의 NFT출시 <br>
+          소장가치 이상의 자산가치를 제공하는 플랫폼
+        </p>
+
+        <div class="home_btn">
+          <span><a href="./Fan2Go white paper Ver.01- Kor.pdf">Whitepaper</a></span>
+          <span><a href="">Wallet</a></span>
+        </div><!-- chome_btn -->
+      </div><!-- home_txt -->
+
+
+    </section><!-- home -->
+
+
+
+
+    <section id="intro">
+
+      <div class="intro_wrap container">
+
+        <h3>Intro.</h3>
+        
+        <p>
+          사람들은 항상 스포츠에 열광하고, 수집품을 소유하는 것을 좋아하며, <br>
+          그들의 스포츠 영웅과 팀에 대한 소속감을 느끼고 싶어 합니다. <br>
+          이러한 시장의 수요와 팬들의 열망을 모아 스포츠 전문 NFT 플랫폼을 탄생시킵니다. <br>
+          
+          잊지못할 명경기, 전세계의 사랑을 받는 스포츠 스타, 엄청난 팬을 가진 스포츠팀 <br>
+          
+          이제 TV에서 보고 사라지는게 아닌, 실제와 같은 생동감을 가진 NFT작품으로 영원히 간직할 수 있게 됩니다. <br> <br>
+
+          멋진 NFT작품의 소장의 만족감에, 글로벌 사용자와의 거래를 통한 수익창출까지. <br>
+          
+          모든이들의 스포츠에 대한 열망을 담은 NFT로 시장을 석권하겠습니다. <br>
+          
+        </p>
+      </div><!-- intro_wrap -->
+    </section><!-- intro -->
+
+
+
+
+    <section id="blockchainsystem">
+
+      <div class="blckchain_wrap container">
+
+        <h3>Fan2GO Blockchain Systems</h3>
+        
+        <h4>팬 커뮤니티의 NFT는 누구나 실시간으로 검색하고 바로 구매하고 안전하게 보관 할 수 있어야 합니다.</h4>
+        
+        <p>팬투고가 도입한 ERC20 블록체인 시스템은 NFT의 생성부터, <br>
+        제작, 관리, 판매, 보관, 거래까지 가장 안정적인 방식으로 진행이됩니다.  <br>
+        나만의 NFT를 제작하는 개인, 가치있는 NFT를 제작하여 유통하는 스포츠 마케팅 에이전트, <br>
+        NFT를 거래하는 글로벌 사용자들까지… <br> <br>
+        
+        블록체인의 투명하고 안전한 방식을 통해 데이터를 저장하고, 거래내역을 추적하고, <br>
+        소유권 및 재판매 수익을 자동으로 보장하여 가장 가치있고 안전한 스포츠 NFT 거래 플랫폼의 기능을 구현합니다.
+      </p>
+      
+      <div class="blckchn_img">
+        <img src="img/blockchain_graph.png" alt="blockchain_graph">
+      </div><!-- blckchn_img -->
+    </div><!-- blckchain_wrap -->
+    </section><!-- blockchainsystem -->
 
   </body>
 
