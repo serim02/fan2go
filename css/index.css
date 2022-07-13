@@ -438,6 +438,14 @@ header{
   width: 100%;
 }
 
+.roadmap_wrap img.roadmap_wep{
+  max-width: 90%;
+}
+
+.roadmap_wrap img.roadmap_mov{
+  display:none;
+}
+/* 
 .roadmap_listBox{
   width: 100%;
   height: auto;
@@ -465,7 +473,7 @@ header{
   font-weight: bold;
   font-size: 1.5em;
   margin-bottom: 10px;
-}
+} */
 
 
 /* 컨텍트 */
